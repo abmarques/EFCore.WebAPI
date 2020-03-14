@@ -26,6 +26,7 @@ namespace EFCore.WebAPI {
       services.AddDbContext<HeroiContext>(options => {
         options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
       });
+
       services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
     }
 
