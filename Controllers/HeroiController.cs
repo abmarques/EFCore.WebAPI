@@ -34,7 +34,7 @@ namespace EFCore.WebAPI.Controllers {
     // GET: api/Heroi/5
     [HttpGet("{id}", Name = "Get")]
     public ActionResult Get(int id) {
-      return Ok("value");
+      return Ok();
     }
 
     // POST: api/Heroi
